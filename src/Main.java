@@ -1,12 +1,8 @@
 public class Main {
-    public static void main(String[] args) {
-        int x = 999;
-        int y = x++;
-        System.out.println("x = " + x);
-        System.out.println("y = " + y);
-        int z = ++x;
-        System.out.println("z = " + z);
-
-
-        }
+    public static void main(String[] args){
+        var x = 10;
+        System.out.println(x);
+        boolean isActive = false;
+        boolean isAlive = true;
     }
+}

@@ -6,10 +6,17 @@ public class EnterPoint {
         Input input = new Input();
         DoWhile dw = new DoWhile();
         SwitchCase switchCase = new SwitchCase();
+        ForEatch forEatch = new ForEatch();
+        MultiDimentionMassive multiDimentionMassive = new MultiDimentionMassive();
+
+
         //afw.show();
         //input.show();
         //dw.show();
-        switchCase.show();
+        //switchCase.show();
+        //forEatch.show();
+        multiDimentionMassive.show();
+
 
     }
 }

@@ -2,7 +2,6 @@ package GUI;
 
 import javax.swing.*;
 import java.awt.FlowLayout;
-import java.awt.GridLayout;
 
 
 public class SimpleCalculator {
@@ -12,7 +11,6 @@ public class SimpleCalculator {
 
         // Задаём менеджер отображения для этой панели
         FlowLayout flowLayout = new FlowLayout();
-        GridLayout gridLayout = new GridLayout(4, 2,5,5);
         windowContent.setLayout(flowLayout);
 
         // Создаём компоненты в памяти

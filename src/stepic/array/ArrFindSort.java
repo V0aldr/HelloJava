@@ -25,3 +25,4 @@ public class ArrFindSort {
         System.out.println(mini + maxi);
     }
 }
+//

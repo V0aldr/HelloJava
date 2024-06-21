@@ -27,3 +27,4 @@ public class RandomArray {
         System.out.printf("%2d %.1f", sum, product);
     }
 }
+//

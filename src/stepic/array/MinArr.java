@@ -22,4 +22,3 @@ public class MinArr {
 
 
 //8
-//2 11 2 15 6 2 20 7

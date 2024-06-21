@@ -30,4 +30,4 @@ public class RandArrAverage {
     }
 }
 
-//10 45
+//10

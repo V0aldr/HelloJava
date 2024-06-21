@@ -33,3 +33,4 @@ public class ArrMinMax {
         for (int el : list) System.out.print(el + " ");
     }
 }
+//

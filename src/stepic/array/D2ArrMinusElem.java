@@ -30,4 +30,4 @@ public class D2ArrMinusElem {
     }
 }
 
-//4 3 100
+//4

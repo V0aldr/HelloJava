@@ -1,4 +1,4 @@
-package stepic;
+package Syntaxis;
 
 public class WhileBlock {
     public static void main(String[] args) {

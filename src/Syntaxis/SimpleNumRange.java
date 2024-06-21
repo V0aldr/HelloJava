@@ -1,8 +1,8 @@
-package stepic;
+package Syntaxis;
 
 import java.util.Scanner;
 
-public class SunNOD {
+public class SimpleNumRange {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -10,18 +10,18 @@ public class SunNOD {
         int number2 = scan.nextInt();
         scan.close();
 
-        int sum = 0;
-
         for (int i = number1; i <= number2; i++) {
-            if (i <= 1) continue;
-            for (int j = 2; j <= i; j++) {
-                if (i % j == 0) {
-                    sum += j;
-                    break;
-                }
+            int counter = 0;
+            for (int j = 1; j <= i; j++) {
+                if (i % j == 0) counter++;
             }
+
+            if (counter == 2) System.out.print(i + " ");
+
         }
-        System.out.println(sum);
+        System.out.println();
     }
 }
 
+
+//1 12 	>>> 2 3 5 7 11

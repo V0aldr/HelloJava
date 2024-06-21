@@ -22,7 +22,7 @@
  */
 
 
-package stepic;
+package Syntaxis;
 
 import java.util.Locale;
 import java.util.Scanner;

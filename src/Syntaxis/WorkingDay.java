@@ -1,4 +1,4 @@
-package stepic;
+package Syntaxis;
 
 import java.util.Scanner;
 

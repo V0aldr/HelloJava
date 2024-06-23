@@ -52,10 +52,21 @@ public class StringMethodTxt {
         System.out.println(str.isBlank());
         System.out.println(str.isEmpty());
         System.out.println("-------------");
-        System.out.println(str);
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        String str1 = "Ivan";
+        String str2 = "Ivan";
+        String str3 = new String("Ivan");
+        String str4 = new String(str1);
+        System.out.println(str1 == str2);
+        System.out.println(str1.equals(str2));
+        System.out.println("-------------");
+        System.out.println(str1 == str3);
+        System.out.println(str1.equals(str3));
+        System.out.println("-------------");
+        str4 = str4.intern();
+        System.out.println(str4);
+        System.out.println(str1 == str4);
+
+
     }
 
 
